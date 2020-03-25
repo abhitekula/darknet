@@ -4,8 +4,6 @@ x=$1
 out_file="${x%.*}_out.avi"
 mp4_out="${x%.*}_out.mp4"
 
-echo $out_file $mp4_out
-
 # Run darknet on videofile
 ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights "$1" -out_filename $out_file
 
