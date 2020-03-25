@@ -4,6 +4,7 @@ Install Prerequisites:
 Run
 ```
 ./install_prereqs.sh
+export DISPLAY=:1
 ```
 
 Processing Video:
