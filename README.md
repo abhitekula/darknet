@@ -7,7 +7,6 @@ Run
 ```
 
 Processing Video:
-* Run install script again.
 * Put video in the same directory as darknet
 * Run following command
 ```
