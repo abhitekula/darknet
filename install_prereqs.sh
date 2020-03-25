@@ -4,7 +4,7 @@ make -j 4
 
 FILE=yolov3.weights
 if [ -f "$FILE" ]; then
-    
+    wait
 else 
     wget https://pjreddie.com/media/files/yolov3.weights
 fi
