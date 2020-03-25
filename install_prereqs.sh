@@ -1,6 +1,6 @@
 #!/bin/bash
 
-make -j 4
+make -j 4 &
 
 FILE=yolov3.weights
 if [ -f "$FILE" ]; then
