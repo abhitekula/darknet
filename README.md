@@ -1,3 +1,20 @@
+# Usage
+
+Install Prerequisites:
+Run
+```
+./install_prereqs.sh
+```
+
+Processing Video:
+* Run install script again.
+* Put video in the same directory as darknet
+* Run following command
+```
+./process_video.sh INPUT_VIDEO_FILENAME
+```
+
+
 # Yolo-v3 and Yolo-v2 for Windows and Linux
 ### (neural network for object detection) - Tensor Cores can be used on [Linux](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux) and [Windows](https://github.com/AlexeyAB/darknet#how-to-compile-on-windows-using-cmake-gui)
 
