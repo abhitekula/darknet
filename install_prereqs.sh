@@ -6,7 +6,7 @@ FILE=yolov3.weights
 if [ -f "$FILE" ]; then
     wait
 else 
-    wget https://pjreddie.com/media/files/yolov3.weights
+    wget https://pjreddie.com/media/files/yolov3.weights &
 fi
 
 
@@ -16,3 +16,5 @@ sudo apt install -y ffmpeg
 sudo apt install -y xvfb
 Xvfb :1 &
 export DISPLAY=:1
+
+wait $(jobs -p)
