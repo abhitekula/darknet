@@ -17,4 +17,5 @@ sudo apt install -y ffmpeg
 sudo apt install -y xvfb
 Xvfb :1 &
 export DISPLAY=:1
+echo 'Xvfb :1 &' >> ~/.bashrc 
 echo 'export DISPLAY=:1' >> ~/.bashrc 
