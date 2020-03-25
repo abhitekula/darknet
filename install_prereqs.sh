@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo apt install -y opencv ffmpeg
+sudo apt install -y ffmpeg
 
 make
