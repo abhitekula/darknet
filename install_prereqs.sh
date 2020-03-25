@@ -9,6 +9,7 @@ else
     wget https://pjreddie.com/media/files/yolov3.weights &
 fi
 
+wait $(jobs -p)
 
 sudo apt install -y ffmpeg
 
@@ -16,5 +17,3 @@ sudo apt install -y ffmpeg
 sudo apt install -y xvfb
 Xvfb :1 &
 export DISPLAY=:1
-
-wait $(jobs -p)
